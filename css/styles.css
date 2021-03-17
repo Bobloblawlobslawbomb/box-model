@@ -12,7 +12,23 @@
 
 .centered-image {
   margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
   width: 50%;
   height: auto;
   display: block;
+}
+
+h1 {
+  margin: auto;
+  margin-top: 25px;
+  font-family: sans-serif;
+  width: 50%;
+  font-style: bold;
+}
+
+h3 {
+  font-family: sans-serif;
+  margin: auto;
+  width: 50%;
 }
