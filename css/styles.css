@@ -1,3 +1,15 @@
+.left {
+  float: left;
+  width 200px;
+  border: 2px solid green;
+  padding: 10px;
+  background-color: orange;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
 .my-class {
   border: 2px solid green;
   padding: 10px;
@@ -19,6 +31,11 @@
   display: block;
 }
 
+.left-image {
+  margin: auto;
+  width: 
+}
+
 h1 {
   margin: auto;
   margin-top: 25px;
@@ -31,4 +48,10 @@ h3 {
   font-family: sans-serif;
   margin: auto;
   width: 50%;
+}
+
+h3.left {
+  width: 175px;
+  text-align: center;
+  border: none;
 }
