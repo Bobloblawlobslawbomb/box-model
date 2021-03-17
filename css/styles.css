@@ -47,7 +47,7 @@
 
 .left-image {
   margin: auto;
-  width: 
+  width: auto; 
 }
 
 h1 {
@@ -68,6 +68,18 @@ h3.left {
   width: 175px;
   text-align: center;
   border: none;
+}
+
+.background {
+  background-image: url(fur.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  z-index: 0;
+   /*position:absolute;
+  /*width: 100%;
+
 }
 
 /* .left { 
