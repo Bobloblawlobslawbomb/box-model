@@ -1,6 +1,6 @@
 .left {
   float: left;
-  width 200px;
+  width: 200px;
   border: 2px solid green;
   padding: 10px;
   background-color: orange;
@@ -8,10 +8,19 @@
   margin-top: 20px;
   margin-bottom: 20px;
   box-sizing: border-box;
+  z-index: 1;
+}
+
+.layer-bottom {
+  margin: auto;
+  width: 100%;
+  z-index: -1;
 }
 
 .leftimage {
+  margin: auto;
   width: 150px;
+  padding: 10px;
 }
 
 .my-class {
@@ -30,6 +39,7 @@
   margin: auto;
   margin-top: 20px;
   margin-bottom: 20px;
+  margin-left: 25%;
   width: 50%;
   height: auto;
   display: block;
