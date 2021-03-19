@@ -71,13 +71,9 @@ h3.left {
 }
 
 .background {
-  background-image: url(fur.jpeg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  z-index: 0;
-   /*position:absolute;
+  background: url(fur.jpg) center center cover no-repeat fixed;
+}
+  /*position:absolute;
   /*width: 100%;
 
 }
